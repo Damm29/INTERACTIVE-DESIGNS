@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BALA : MonoBehaviour
 {
-    public GameObject BALA;
+    public GameObject BALAS;
     public GameObject ARMA;
     public float fuerzaproyectil = 500.0f;
 
@@ -17,11 +17,11 @@ public class BALA : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown())
+        if (Input.GetMouseButtonDown(0))
         {
-            GameObject BALAins = instantrate(BALA, ARMA.transform.position, Quaternion.identity);
-            BALAins.GetComponent<Rigidbody>().AddForce(ARMA.transform.forward'fuerzaproyectil');
-            Destroy(BALAins.2.5f);
+            GameObject BalaIns = Instantiate(BALAS, ARMA.transform.position, Quaternion.identity);
+            BalaIns.GetComponent<Rigidbody>().AddForce(ARMA.transform.forward * fuerzaproyectil);
+            Destroy(BalaIns, 2.5f);
         }
     }
 }
