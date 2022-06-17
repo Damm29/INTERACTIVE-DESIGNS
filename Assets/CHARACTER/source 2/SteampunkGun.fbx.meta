@@ -3,7 +3,18 @@ guid: d9eb21898fc62784ca417890a388124d
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 848918a99d11f25f110026ca44295342, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SteamPunk_Gun
+    second: {fileID: 3488040510875299109, guid: a20823174f40e464a9de9ea1cbb71b61,
+      type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

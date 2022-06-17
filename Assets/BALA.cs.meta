@@ -3,7 +3,9 @@ guid: 355cf6b90b1f7254d87541f5ce9ae264
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - BALAS: {fileID: 2714570777226556144, guid: 49fb6fae6f5703840a20b2873bfbf0ff, type: 3}
+  - ARMA: {fileID: 919132149155446097, guid: d9eb21898fc62784ca417890a388124d, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
